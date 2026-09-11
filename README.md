@@ -1,1 +1,56 @@
-# Computer Vision Coursework  α╕úα╕ºα╕íα╣üα╕Üα╕Üα╕¥α╕╢α╕üα╕½α╕▒α╕öα╣üα╕Ñα╕░α╕üα╕▓α╕úα╕¢α╕úα╕░α╕íα╕ºα╕Ñα╕£α╕Ñα╕áα╕▓α╕₧α╕öα╕┤α╕êα╕┤α╕ùα╕▒α╕Ñα╣âα╕Öα╕úα╕▓α╕óα╕ºα╕┤α╕èα╕▓ Computer Vision α╕äα╕úα╕¡α╕Üα╕äα╕Ñα╕╕α╕íα╕üα╕▓α╕úα╕äα╕│α╕Öα╕ºα╕ôα╕äα╕╕α╕ôα╕Ñα╕▒α╕üα╕⌐α╕ôα╕░α╕áα╕▓α╕₧, α╕üα╕▓α╕úα╕Üα╕╡α╕Üα╕¡α╕▒α╕öα╕éα╣ëα╕¡α╕íα╕╣α╕Ñ α╣üα╕Ñα╕░α╕üα╕▓α╕úα╕ºα╕┤α╣Çα╕äα╕úα╕▓α╕░α╕½α╣îα╕áα╕▓α╕₧α╕öα╕┤α╕êα╕┤α╕ùα╕▒α╕Ñ  ---  ## 1. Texture Segmentation ΓÇö GLCM (Gray-Level Co-occurrence Matrix)  α╕üα╕▓α╕úα╕¬α╕üα╕▒α╕öα╕äα╕╕α╕ôα╕Ñα╕▒α╕üα╕⌐α╕ôα╕░α╣Çα╕Öα╕╖α╣ëα╕¡α╕¬α╕▒α╕íα╕£α╕▒α╕¬α╕éα╕¡α╕çα╕áα╕▓α╕₧α╣éα╕öα╕óα╕üα╕▓α╕úα╕¬α╕úα╣ëα╕▓α╕çα╣Çα╕íα╕ùα╕úα╕┤α╕üα╕ïα╣îα╕üα╕▓α╕úα╣Çα╕üα╕┤α╕öα╕úα╣êα╕ºα╕íα╕úα╕░α╕öα╕▒α╕Üα╕¬α╕╡α╣Çα╕ùα╕▓ (GLCM) α╕êα╕▓α╕üα╕₧α╕┤α╕üα╣Çα╕ïα╕Ñα╣âα╕Öα╕ùα╕┤α╕¿α╕ùα╕▓α╕çα╕òα╣êα╕▓α╕ç α╣å α╕₧α╕úα╣ëα╕¡α╕íα╕äα╕│α╕Öα╕ºα╕ôα╕äα╣êα╕▓ Contrast, Similarity α╣üα╕Ñα╕░ Dissimilarity α╣Çα╕₧α╕╖α╣êα╕¡α╣âα╕èα╣ëα╣âα╕Öα╕üα╕▓α╕úα╣üα╕Üα╣êα╕çα╕¬α╣êα╕ºα╕Öα╕áα╕▓α╕₧  ![α╕òα╕▒α╕ºα╕¡α╕óα╣êα╕▓α╕çα╕äα╕│α╕òα╕¡α╕Ü GLCM](texture-segmentation/preview.png)  ≡ƒôä [α╕öα╕╣α╣Çα╕¡α╕üα╕¬α╕▓α╕úα╣üα╕Ñα╕░α╕£α╕Ñα╕üα╕▓α╕úα╕äα╕│α╕Öα╕ºα╕ôα╕ëα╕Üα╕▒α╕Üα╣Çα╕òα╣çα╕í (10 α╕½α╕Öα╣ëα╕▓)](texture-segmentation/answers.pdf)  ---  ## 2. Huffman Coding  α╕üα╕▓α╕úα╕Üα╕╡α╕Üα╕¡α╕▒α╕öα╕éα╣ëα╕¡α╕íα╕╣α╕Ñα╕áα╕▓α╕₧α╣üα╕Üα╕Üα╣äα╕íα╣êα╕¬α╕╣α╕ìα╣Çα╕¬α╕╡α╕óα╕úα╕▓α╕óα╕Ñα╕░α╣Çα╕¡α╕╡α╕óα╕ö (Lossless Data Compression) α╣éα╕öα╕óα╕äα╕│α╕Öα╕ºα╕ôα╕äα╕ºα╕▓α╕íα╕Öα╣êα╕▓α╕êα╕░α╣Çα╕¢α╣çα╕Öα╕éα╕¡α╕çα╕úα╕░α╕öα╕▒α╕Üα╕äα╕ºα╕▓α╕íα╕¬α╕ºα╣êα╕▓α╕çα╕₧α╕┤α╕üα╣Çα╕ïα╕Ñ α╕¬α╕úα╣ëα╕▓α╕ç Huffman Tree α╕üα╕│α╕½α╕Öα╕öα╕úα╕½α╕▒α╕¬α╕Üα╕┤α╕ò α╕₧α╕úα╣ëα╕¡α╕íα╕ùα╕▒α╣ëα╕çα╕äα╕│α╕Öα╕ºα╕ô Average Code Length α╣üα╕Ñα╕░ Compression Ratio  ![α╕òα╕▒α╕ºα╕¡α╕óα╣êα╕▓α╕çα╕äα╕│α╕òα╕¡α╕Ü Huffman Coding](huffman-coding/preview.png)  ≡ƒôä [α╕öα╕╣α╣Çα╕¡α╕üα╕¬α╕▓α╕úα╣üα╕Ñα╕░α╕éα╕▒α╣ëα╕Öα╕òα╕¡α╕Öα╕üα╕▓α╕úα╣Çα╕éα╣ëα╕▓α╕úα╕½α╕▒α╕¬α╕ëα╕Üα╕▒α╕Üα╣Çα╕òα╣çα╕í (5 α╕½α╕Öα╣ëα╕▓)](huffman-coding/answers.pdf)  ---  ## 3. Connected-Component Labeling  α╕¡α╕▒α╕Ñα╕üα╕¡α╕úα╕┤α╕ùα╕╢α╕íα╕üα╕▓α╕úα╕úα╕░α╕Üα╕╕α╣üα╕Ñα╕░α╕êα╕▒α╕öα╕üα╕Ñα╕╕α╣êα╕íα╕ºα╕▒α╕òα╕ûα╕╕α╣âα╕Öα╕áα╕▓α╕₧α╣äα╕Üα╕Öα╕▓α╕úα╕╡ (Binary Image) α╣éα╕öα╕óα╕üα╕▓α╕úα╕üα╕│α╕½α╕Öα╕ö Label α╣âα╕½α╣ëα╣üα╕üα╣êα╕₧α╕┤α╕üα╣Çα╕ïα╕Ñα╕ùα╕╡α╣êα╣Çα╕èα╕╖α╣êα╕¡α╕íα╕òα╣êα╕¡α╕üα╕▒α╕Ö (Connected Pixels) α╣üα╕Ñα╕░α╕úα╕ºα╕íα╕üα╕Ñα╕╕α╣êα╕íα╣Çα╕₧α╕╖α╣êα╕¡α╣üα╕óα╕üα╣üα╕óα╕░α╕èα╕┤α╣ëα╕Öα╕¬α╣êα╕ºα╕Öα╕ºα╕▒α╕òα╕ûα╕╕α╣âα╕Öα╕áα╕▓α╕₧  ![α╕äα╕│α╕òα╕¡α╕Ü Connected-Component Labeling](connected-component-labeling/preview.png)  ≡ƒôä [α╕öα╕╣α╣Çα╕¡α╕üα╕¬α╕▓α╕úα╣üα╕Ñα╕░α╕£α╕Ñα╕Ñα╕▒α╕₧α╕ÿα╣îα╕éα╕Öα╕▓α╕öα╣Çα╕òα╣çα╕í](connected-component-labeling/answers.pdf)   ## 4. Python Labs  | α╕çα╕▓α╕Ö | α╕¬α╕┤α╣êα╕çα╕ùα╕╡α╣êα╕ùα╕│ | |---|---| | [Lab 1 ΓÇö Noise Filtering](labs/lab-01-noise-filtering/main.py) | α╣üα╕¢α╕Ñα╕ç grayscale α╣üα╕Ñα╕░α╣Çα╕éα╕╡α╕óα╕Öα╕òα╕▒α╕ºα╕üα╕úα╕¡α╕ç Average/Median α╣Çα╕₧α╕╖α╣êα╕¡α╕Ñα╕ö Gaussian α╕üα╕▒α╕Ü Salt-and-pepper noise | | [Lab 2 ΓÇö Otsu Threshold](labs/lab-02-otsu/main.py) | α╕äα╕│α╕Öα╕ºα╕ô histogram α╕½α╕▓ threshold α╣üα╕Ñα╕░α╣üα╕¢α╕Ñα╕çα╕áα╕▓α╕₧α╣Çα╕¢α╣çα╕Ö binary | | [Mini Project 1 ΓÇö Edge & Hough](mini-project-01-edge-hough/README.md) | α╣Çα╕¢α╕úα╕╡α╕óα╕Üα╣Çα╕ùα╕╡α╕óα╕Ü Roberts, Prewitt, Sobel, Canny α╣üα╕Ñα╕░α╕òα╕úα╕ºα╕êα╣Çα╕¬α╣ëα╕Ö/α╕ºα╕çα╕üα╕Ñα╕íα╕öα╣ëα╕ºα╕ó Hough Transform |  α╣âα╕èα╣ë Python 3.10 α╣üα╕Ñα╣ëα╕ºα╕òα╕┤α╕öα╕òα╕▒α╣ëα╕çα╣äα╕Ñα╕Üα╕úα╕▓α╕úα╕╡:  ```sh pip install -r requirements.txt ```  α╣Çα╕éα╣ëα╕▓α╣éα╕ƒα╕Ñα╣Çα╕öα╕¡α╕úα╣î lab α╕ùα╕╡α╣êα╕òα╣ëα╕¡α╕çα╕üα╕▓α╕úα╕üα╣êα╕¡α╕Öα╕úα╕▒α╕Ö `python main.py` α╣Çα╕₧α╕╖α╣êα╕¡α╣âα╕½α╣ëα╣éα╕¢α╕úα╣üα╕üα╕úα╕íα╕¡α╣êα╕▓α╕Öα╕úα╕╣α╕¢α╣âα╕Ö `pic` α╣äα╕öα╣ë α╕¬α╣êα╕ºα╕Ö mini project α╕íα╕╡α╕ºα╕┤α╕ÿα╕╡α╣Çα╕¢α╕┤α╕öα╣üα╕óα╕üα╕¡α╕óα╕╣α╣êα╣âα╕Öα╣éα╕ƒα╕Ñα╣Çα╕öα╕¡α╕úα╣îα╕çα╕▓α╕Ö  Lab 2 α╕ùα╕│α╕úα╣êα╕ºα╕íα╕üα╕▒α╕Ü α╕₧α╕▒α╕èα╕ôα╕₧α╕çα╕¿α╣î α╕₧α╕çα╕¿α╣îα╕₧α╕┤α╕íα╕₧α╣î  ## 5. Mini Project 2 ΓÇö Scene Classification  [α╣éα╕¢α╕úα╣Çα╕êα╕üα╕òα╣îα╕êα╕│α╣üα╕Öα╕üα╕ëα╕▓α╕üα╕öα╣ëα╕ºα╕ó EfficientNetB0](https://github.com/Painter121/computer-vision-mini-project-scene-classification) α╕íα╕╡α╣éα╕íα╣Çα╕öα╕Ñα╕ùα╕╡α╣êα╕¥α╕╢α╕üα╣üα╕Ñα╣ëα╕ºα╣üα╕Ñα╕░α╕½α╕Öα╣ëα╕▓α╣Çα╕ºα╣çα╕Ü Gradio α╕¬α╕│α╕½α╕úα╕▒α╕Üα╕¡α╕▒α╕¢α╣éα╕½α╕Ñα╕öα╕áα╕▓α╕₧
+# Computer Vision Coursework
+
+รวมแบบฝึกหัดและการประมวลผลภาพดิจิทัลในรายวิชา Computer Vision ครอบคลุมการคำนวณคุณลักษณะภาพ, การบีบอัดข้อมูล และการวิเคราะห์ภาพดิจิทัล
+
+---
+
+## 1. Texture Segmentation — GLCM (Gray-Level Co-occurrence Matrix)
+
+การสกัดคุณลักษณะเนื้อสัมผัสของภาพโดยการสร้างเมทริกซ์การเกิดร่วมระดับสีเทา (GLCM) จากพิกเซลในทิศทางต่าง ๆ พร้อมคำนวณค่า Contrast, Similarity และ Dissimilarity เพื่อใช้ในการแบ่งส่วนภาพ
+
+![ตัวอย่างคำตอบ GLCM](texture-segmentation/preview.png)
+
+[ดูเอกสารและผลการคำนวณฉบับเต็ม (10 หน้า)](texture-segmentation/answers.pdf)
+
+---
+
+## 2. Huffman Coding
+
+การบีบอัดข้อมูลภาพแบบไม่สูญเสียรายละเอียด (Lossless Data Compression) โดยคำนวณความน่าจะเป็นของระดับความสว่างพิกเซล สร้าง Huffman Tree กำหนดรหัสบิต พร้อมทั้งคำนวณ Average Code Length และ Compression Ratio
+
+![ตัวอย่างคำตอบ Huffman Coding](huffman-coding/preview.png)
+
+[ดูเอกสารและขั้นตอนการเข้ารหัสฉบับเต็ม (5 หน้า)](huffman-coding/answers.pdf)
+
+---
+
+## 3. Connected-Component Labeling
+
+อัลกอริทึมการระบุและจัดกลุ่มวัตถุในภาพไบนารี (Binary Image) โดยการกำหนด Label ให้แก่พิกเซลที่เชื่อมต่อกัน (Connected Pixels) และรวมกลุ่มเพื่อแยกแยะชิ้นส่วนวัตถุในภาพ
+
+![คำตอบ Connected-Component Labeling](connected-component-labeling/preview.png)
+
+[ดูเอกสารและผลลัพธ์ขนาดเต็ม](connected-component-labeling/answers.pdf)
+
+
+## 4. Python Labs
+
+| งาน | สิ่งที่ทำ |
+|---|---|
+| [Lab 1 — Noise Filtering](labs/lab-01-noise-filtering/main.py) | แปลง grayscale และเขียนตัวกรอง Average/Median เพื่อลด Gaussian กับ Salt-and-pepper noise |
+| [Lab 2 — Otsu Threshold](labs/lab-02-otsu/main.py) | คำนวณ histogram หา threshold และแปลงภาพเป็น binary |
+| [Mini Project 1 — Edge & Hough](mini-project-01-edge-hough/README.md) | เปรียบเทียบ Roberts, Prewitt, Sobel, Canny และตรวจเส้น/วงกลมด้วย Hough Transform |
+
+ใช้ Python 3.10 แล้วติดตั้งไลบรารี:
+
+```sh
+pip install -r requirements.txt
+```
+
+เข้าโฟลเดอร์ lab ที่ต้องการก่อนรัน `python main.py` เพื่อให้โปรแกรมอ่านรูปใน `pic` ได้ ส่วน mini project มีวิธีเปิดแยกอยู่ในโฟลเดอร์งาน
+
+Lab 2 ทำร่วมกับ พัชณพงศ์ พงศ์พิมพ์
+
+## 5. Mini Project 2 — Scene Classification
+
+[โปรเจกต์จำแนกฉากด้วย EfficientNetB0](https://github.com/Painter121/computer-vision-mini-project-scene-classification) มีโมเดลที่ฝึกแล้วและหน้าเว็บ Gradio สำหรับอัปโหลดภาพ
