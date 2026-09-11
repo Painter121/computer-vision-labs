@@ -31,3 +31,26 @@
 ![คำตอบ Connected-Component Labeling](connected-component-labeling/preview.png)
 
 📄 [ดูเอกสารและผลลัพธ์ขนาดเต็ม](connected-component-labeling/answers.pdf)
+
+
+## 4. Python Labs
+
+| งาน | สิ่งที่ทำ |
+|---|---|
+| [Lab 1 — Noise Filtering](labs/lab-01-noise-filtering/main.py) | แปลง grayscale และเขียนตัวกรอง Average/Median เพื่อลด Gaussian กับ Salt-and-pepper noise |
+| [Lab 2 — Otsu Threshold](labs/lab-02-otsu/main.py) | คำนวณ histogram หา threshold และแปลงภาพเป็น binary |
+| [Mini Project 1 — Edge & Hough](mini-project-01-edge-hough/README.md) | เปรียบเทียบ Roberts, Prewitt, Sobel, Canny และตรวจเส้น/วงกลมด้วย Hough Transform |
+
+ใช้ Python 3.10 แล้วติดตั้งไลบรารี:
+
+```sh
+pip install -r requirements.txt
+```
+
+เข้าโฟลเดอร์ lab ที่ต้องการก่อนรัน `python main.py` เพื่อให้โปรแกรมอ่านรูปใน `pic` ได้ ส่วน mini project มีวิธีเปิดแยกอยู่ในโฟลเดอร์งาน
+
+Lab 2 ทำร่วมกับ พัชณพงศ์ พงศ์พิมพ์
+
+## 5. Mini Project 2 — Scene Classification
+
+[โปรเจกต์จำแนกฉากด้วย EfficientNetB0](https://github.com/Painter121/computer-vision-mini-project-scene-classification) มีโมเดลที่ฝึกแล้วและหน้าเว็บ Gradio สำหรับอัปโหลดภาพ
